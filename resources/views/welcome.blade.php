@@ -13,8 +13,6 @@
     <link rel='stylesheet' href="{{asset('frontend/css/settings.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/testimonial-rotator-style.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/font-awesome.min.css')}}" type='text/css' media='all' />
-    <link rel='stylesheet' href="{{asset('frontend/css/slimainck.css')}}" type='text/css' media='all' />
-
 
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%7CLato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&#038;%20ver=744ba46599a7d4bb3dbca7a1571be0cd#038;subset=latin,latin-ext' type='text/css' media='all' />
     <link rel="stylesheet" href="{{asset('frontend/css/stylesheet.css')}}" type="text/css" charset="utf-8" />
@@ -30,7 +28,7 @@
         <!--Logo Slide-->
         <div class="et_slide_menu_top">
             <span class="mobile_menu_bar et_pb_header_toggle et_toggle_slide_menu"></span>
-            <img src="images/Naisa-Global-Logo-Rimg1.png" alt="logo" class="image-logo-slide" style="height: 47px;float: left;position: relative;top: 21px;">
+            <img src="{{asset('frontend/images/Naisa-Global-Logo-Rimg1.png')}}" alt="logo" class="image-logo-slide" style="height: 47px;float: left;position: relative;top: 21px;">
         </div>
         <!-- .et_slide_menu_top -->
         <div class="et_pb_fullscreen_nav_container">
@@ -109,12 +107,12 @@
             <div class="logo_container">
                 <span class="logo_helper"></span>
                 <a href="./">
-                    <img src="images/Naisa-Global-Logo-Rimg.png" alt="naisA Global" id="logo" />
+                    <img src="{{asset('public/frontend/images/Naisa-Global-Logo-Rimg.png')}}" alt="naisA Global" id="logo" />
                 </a>
             </div>
             <div id="et-top-navigation" data-height="66" data-fixed-height="40">
                 <span class="mobile_menu_bar et_pb_header_toggle et_toggle_slide_menu"></span>
-                <a href=""><img src="images/Naisa-Global-Logo-Rimg.png" alt="logo" class="image-logo" style="height: 57px; float: left; position: relative; top: -45px; left: 39px;"></a>
+                <a href=""><img src="{{asset('public/frontend/images/Naisa-Global-Logo-Rimg.png')}}" alt="logo" class="image-logo" style="height: 57px; float: left; position: relative; top: -45px; left: 39px;"></a>
                 <div style="float: right;" class="header_primary">
                     <a href="" title="Donate">Donate</a>
                     <a href="" title="Join Our Mailing List">Join Our Mailing List</a>
@@ -145,12 +143,12 @@
                                 <div class="et_pb_module et_pb_fullwidth_slider_0 slider-ratio-16-9 et_pb_slider et_pb_slider_no_pagination et_slider_auto et_slider_speed_5000 et_slider_auto_ignore_hover">
                                     <div class="et_pb_slides">
                                         <div class="bxslider">
-                                            <div><img src="images/Find-Your-Mentor-wOly-img-1.jpg"></div>
-                                            <div><img src="images/Asian-American-Leadership-Repersentation-wOly-img-2.jpg"></div>
-                                            <div><img src="images/Why-Were-Unique-wOly-img.jpg"></div>
-                                            <div><img src="images/Subscribe-To-Us-Today-wOly-img.jpg"></div>
-                                            <div><img src="images/naisA-Global-NextGen-Awards-Gala-img.jpg"></div>
-                                            <div><img src="images/naisA-Talk-Series-img.jpg"></div>
+                                            <div><img src="{{asset('public/frontend/images/Find-Your-Mentor-wOly-img-1.jpg')}}"></div>
+                                            <div><img src="{{asset('public/frontend/images/Asian-American-Leadership-Repersentation-wOly-img-2.jpg')}}"></div>
+                                            <div><img src="{{asset('public/frontend/images/Why-Were-Unique-wOly-img.jpg')}}"></div>
+                                            <div><img src="{{asset('public/frontend/images/Subscribe-To-Us-Today-wOly-img.jpg')}}"></div>
+                                            <div><img src="{{asset('public/frontend/images/naisA-Global-NextGen-Awards-Gala-img.jpg')}}"></div>
+                                            <div><img src="{{asset('public/frontend/images/naisA-Talk-Series-img.jpg')}}"></div>
                                         </div>
                                     </div>
                                 </div>
