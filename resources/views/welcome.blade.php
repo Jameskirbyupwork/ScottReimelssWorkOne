@@ -6,18 +6,21 @@
     <link rel="pingback" href="https://naisaglobal.org/staging/xmlrpc.php" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Landing Page - naisA Global</title>
-
+    <link rel="stylesheet" href="{{asset('frontend/css/jquery.bxslider.min.css')}}" />
+    <link rel='stylesheet' href="{{asset('frontend/css/main.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/slick.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/post-carousel.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/settings.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/testimonial-rotator-style.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/font-awesome.min.css')}}" type='text/css' media='all' />
     <link rel='stylesheet' href="{{asset('frontend/css/slimainck.css')}}" type='text/css' media='all' />
+
+
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%7CLato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&#038;%20ver=744ba46599a7d4bb3dbca7a1571be0cd#038;subset=latin,latin-ext' type='text/css' media='all' />
+    <link rel="stylesheet" href="{{asset('frontend/css/stylesheet.css')}}" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="{{asset('frontend/css/et-core.min.css')}}" />
 
-    <script type='text/javascript' src="{{asset('frontend/js/jquery.min.js')}}"></script>
-
+     <script type='text/javascript' src="{{asset('frontend/js/jquery.min.js')}}"></script>
 </head>
 <body class="page-template-default et_fullwidth_nav et_fullwidth_secondary_nav et_fixed_nav et_show_nav et_hide_primary_logo et_cover_background et_pb_gutter windows et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_slide et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme et-db et_minified_css">
 
@@ -27,103 +30,95 @@
         <!--Logo Slide-->
         <div class="et_slide_menu_top">
             <span class="mobile_menu_bar et_pb_header_toggle et_toggle_slide_menu"></span>
-            <img src="https://naisaglobal.org/staging/wp-content/uploads/2018/08/Naisa-Global-Logo-Rimg1.png" alt="logo" class="image-logo-slide" style="height: 47px;float: left;position: relative;top: 21px;">
-            <a href="https://naisaglobal.org/staging/cart/" class="et-cart-info">
-                <span>0 Items</span>
-            </a>
+            <img src="images/Naisa-Global-Logo-Rimg1.png" alt="logo" class="image-logo-slide" style="height: 47px;float: left;position: relative;top: 21px;">
         </div>
         <!-- .et_slide_menu_top -->
         <div class="et_pb_fullscreen_nav_container">
             <ul id="mobile_menu_slide" class="et_mobile_menu">
-                <li id="menu-item-15376" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15376">
+                <li>
                     <a href="#">About</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-15384" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15384"><a href="https://naisaglobal.org/staging/our-story/">Our Story</a></li>
-                        <li id="menu-item-15711" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15711"><a href="https://naisaglobal.org/staging/our-board/">Our Board</a></li>
-                        <li id="menu-item-17278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17278"><a href="https://naisaglobal.org/staging/our-team/">Our Team</a></li>
-                        <li id="menu-item-18017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18017"><a href="https://naisaglobal.org/staging/annual-reports/">Our Annual Reports</a></li>
-                        <li id="menu-item-15385" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15385"><a href="https://naisaglobal.org/staging/our-testimonials/">Our Testimonials</a></li>
-                        <li id="menu-item-15410" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15410"><a href="https://naisaglobal.org/staging/featured-mentor-elizabeth-cho-fertikh">Our Member Spotlights</a></li>
-                        <li id="menu-item-15386" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15386"><a href="https://naisaglobal.org/staging/gallery/">Our Photo Gallery</a></li>
-                        <li id="menu-item-15387" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15387"><a href="https://naisaglobal.org/staging/video/">Our Videos</a></li>
-                        <li id="menu-item-15736" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15736"><a href="https://naisaglobal.org/staging/infographics/">Our Infographics</a></li>
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Our Board</a></li>
+                        <li><a href="">Our Team</a></li>
+                        <li><a href="">Our Annual Reports</a></li>
+                        <li><a href="">Our Testimonials</a></li>
+                        <li><a href="">Our Member Spotlights</a></li>
+                        <li><a href="">Our Photo Gallery</a></li>
+                        <li><a href="">Our Videos</a></li>
+                        <li><a href="">Our Infographics</a></li>
                     </ul>
                 </li>
-                <li id="menu-item-15377" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15377">
+                <li>
                     <a href="#">Programs</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-15379" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-15379"><a href="https://naisaglobal.org/staging/our-services/">Our Services</a></li>
-                        <li id="menu-item-18122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18122"><a href="https://naisaglobal.org/staging/naisatalks/">naisA Talks</a></li>
-                        <li id="menu-item-15403" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15403"><a href="https://naisaglobal.org/staging/mentor-protege-program/">Mentor-Protégé Program</a></li>
-                        <li id="menu-item-17318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17318"><a href="https://nfa.naisaglobal.org/">Mentoring &#8211; naisA Flash Advice (nFA)</a></li>
-                        <li id="menu-item-17992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17992"><a href="https://naisaglobal.org/staging/naisa-flash-webinar/">naisA-Flash-Webinar</a></li>
-                        <li id="menu-item-15405" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15405"><a href="https://naisaglobal.org/staging/naisa-leadership-scholar-program">naisA GLobal Fellowship Program</a></li>
-                        <li id="menu-item-15407" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15407"><a href="https://naisaglobal.org/staging/naisa-assessment">naisA Global ABCs (Assessment of Business Communication Skills)</a></li>
-                        <li id="menu-item-15404" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15404"><a href="https://naisaglobal.org/staging/naisa-talk">naisA Talks</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="">naisA Talks</a></li>
+                        <li><a href="">Mentor-Protégé Program</a></li>
+                        <li><a href="">Mentoring &#8211; naisA Flash Advice (nFA)</a></li>
+                        <li><a href="">naisA-Flash-Webinar</a></li>
+                        <li><a href="">naisA GLobal Fellowship Program</a></li>
+                        <li><a href="">naisA Global ABCs (Assessment of Business Communication Skills)</a></li>
+                        <li><a href="">naisA Talks</a></li>
                     </ul>
                 </li>
-                <li id="menu-item-17357" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-17357"><a href="https://nfa.naisaglobal.org">Mentoring</a></li>
-                <li id="menu-item-15382" class="naisamc menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-15382">
-                    <a href="https://naisaglobal.org/staging/support/">Support</a>
+                <li><a href="">Mentoring</a></li>
+                <li>
+                    <a href="">Support</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-17867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17867"><a href="https://naisaglobal.org/staging/donation/">Donate</a></li>
-                        <li id="menu-item-15412" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15412"><a href="https://naisaglobal.org/staging/sponsorship">Sponsorship</a></li>
-                        <li id="menu-item-15413" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15413"><a href="https://naisaglobal.org/staging/our-sponsors-partners">Sponsors &#038; Partners</a></li>
+                        <li><a href="">Donate</a></li>
+                        <li><a href="">Sponsorship</a></li>
+                        <li><a href="">Sponsors &#038; Partners</a></li>
                     </ul>
                 </li>
-                <li id="menu-item-15414" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15414">
+                <li>
                     <a href="#">Events</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-17805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17805"><a href="https://naisaglobal.org/staging/gala-photo-albums/">Gala Photo Albums</a></li>
-                        <li id="menu-item-17336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17336"><a href="https://naisaglobal.org/staging/2017-award-gala/">2017 Awards Gala</a></li>
-                        <li id="menu-item-15416" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15416"><a href="https://naisaglobal.org/staging/event/">naisA Events</a></li>
-                        <li id="menu-item-17232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17232"><a href="https://naisaglobal.org/staging/event-calendar/">Event Calendar</a></li>
+                        <li><a href="">Gala Photo Albums</a></li>
+                        <li><a href="">2017 Awards Gala</a></li>
+                        <li><a href="">naisA Events</a></li>
+                        <li><a href="">Event Calendar</a></li>
                     </ul>
                 </li>
-                <li id="menu-item-15417" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15417">
-                    <a href="https://naisaglobal.org/staging/brochures">Blog &#038; News</a>
+                <li>
+                    <a href="">Blog &#038; News</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-16117" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-16117"><a href="https://naisaglobal.org/staging/blog/">Blog</a></li>
-                        <li id="menu-item-15415" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15415"><a href="https://naisaglobal.org/staging/naisa-news-english/">naisA News</a></li>
-                        <li id="menu-item-15419" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15419"><a href="https://naisaglobal.org/staging/brochures">Brochures</a></li>
-                        <li id="menu-item-15420" class="naisamc menu-item menu-item-type-custom menu-item-object-custom menu-item-15420"><a href="https://naisaglobal.org/staging/Newsletters">Newsletters</a></li>
-                        <li id="menu-item-17426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17426"><a href="https://naisaglobal.org/staging/press-release/">naisA Global Press Release</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">naisA News</a></li>
+                        <li><a href="">Brochures</a></li>
+                        <li><a href="">Newsletters</a></li>
+                        <li><a href="">naisA Global Press Release</a></li>
                     </ul>
                 </li>
-                <li id="menu-item-16509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16509"><a href="https://nfa.naisaglobal.org/">LOGIN</a></li>
-                <li id="menu-item-18910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18910"><a href="https://nfa.naisaglobal.org/">Sign In</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18828"><a href="https://naisaglobal.org/donation/">DONATE</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19083"><a href="https://naisaglobal.us10.list-manage.com/subscribe/post?u=89e4768cd6e85cfbb52e786bf&#038;id=0632ee2719">JOIN OUR MAILING LIST</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18833"><a href="https://naisaglobal.org/contact-us/">T: 202-379-2525</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18837"><a href="#">STAY CONNECTED</a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18835"><a><a href="https://facebook.com/naisaglobal" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18836"><a href="http://www.twitter.com/Naisa_Global"><a href="http://www.twitter.com/Naisa_Global" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18834"><a><a href="https://www.linkedin.com/company/naisa" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></a></li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19183"><a href="https://www.pinterest.com/naisaglobal/"><a href="https://www.pinterest.com/naisaglobal/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></a></li>
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">Sign In</a></li>
+                <li><a href="https://naisaglobal.org/donation/">DONATE</a></li>
+                <li><a href="">JOIN OUR MAILING LIST</a></li>
+                <li><a href="">T: 202-379-2525</a></li>
+                <li><a href="#">STAY CONNECTED</a></li>
+                <li><a><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></a></li>
+                <li><a href=""><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></a></li>
+                <li><a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></a></li>
+                <li><a href=""><a href="" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></a></li>
             </ul>
         </div>
     </div>
     <header id="main-header" data-height-onload="66">
         <div class="container clearfix et_menu_container">
 
-            <div style="width: 100%;">
-                <div style="font-size: 60px;">a&#8203;</div>
-            </div>
-
-
             <div class="logo_container">
                 <span class="logo_helper"></span>
-                <a href="https://naisaglobal.org/staging/">
-                    <img src="https://naisaglobal.org/staging/wp-content/uploads/2017/09/Naisa-Global-Logo-Rimg.png" alt="naisA Global" id="logo" data-height-percentage="54" />
+                <a href="./">
+                    <img src="images/Naisa-Global-Logo-Rimg.png" alt="naisA Global" id="logo" />
                 </a>
             </div>
             <div id="et-top-navigation" data-height="66" data-fixed-height="40">
                 <span class="mobile_menu_bar et_pb_header_toggle et_toggle_slide_menu"></span>
-                <a href="https://naisaglobal.org/"><img src="https://naisaglobal.org/staging/wp-content/uploads/2017/09/Naisa-Global-Logo-Rimg.png" alt="logo" class="image-logo" style="height: 57px;float: left;position: relative;top: -45px;left: 39px;"></a>
+                <a href=""><img src="images/Naisa-Global-Logo-Rimg.png" alt="logo" class="image-logo" style="height: 57px; float: left; position: relative; top: -45px; left: 39px;"></a>
                 <div style="float: right;" class="header_primary">
-                    <a href="https://naisaglobal.org/donation/" title="Donate">Donate</a>
-                    <a href="https://naisaglobal.us10.list-manage.com/subscribe/post?u=89e4768cd6e85cfbb52e786bf&id=0632ee2719" title="Join Our Mailing List">Join Our Mailing List</a>
-                    <a href="https://nfa.naisaglobal.org/" title="Sign In">Sign In</a>
+                    <a href="" title="Donate">Donate</a>
+                    <a href="" title="Join Our Mailing List">Join Our Mailing List</a>
+                    <a href="" title="Sign In">Sign In</a>
                 </div>
             </div>
             <!-- #et-top-navigation -->
@@ -131,7 +126,7 @@
         <!-- .container -->
         <div class="et_search_outer">
             <div class="container et_search_form_container">
-                <form role="search" method="get" class="et-search-form" action="https://naisaglobal.org/staging/">
+                <form role="search" method="get" class="et-search-form" action="">
                     <input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
                 </form>
                 <span class="et_close_search_field"></span>
@@ -149,77 +144,14 @@
                             <div class="et_pb_section et_pb_section_0 et_pb_fullwidth_section et_section_regular">
                                 <div class="et_pb_module et_pb_fullwidth_slider_0 slider-ratio-16-9 et_pb_slider et_pb_slider_no_pagination et_slider_auto et_slider_speed_5000 et_slider_auto_ignore_hover">
                                     <div class="et_pb_slides">
-
-                                        <div class="et_pb_slide et_pb_slide_0 et_pb_bg_layout_dark et_pb_media_alignment_center et-pb-active-slide">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="bxslider">
+                                            <div><img src="images/Find-Your-Mentor-wOly-img-1.jpg"></div>
+                                            <div><img src="images/Asian-American-Leadership-Repersentation-wOly-img-2.jpg"></div>
+                                            <div><img src="images/Why-Were-Unique-wOly-img.jpg"></div>
+                                            <div><img src="images/Subscribe-To-Us-Today-wOly-img.jpg"></div>
+                                            <div><img src="images/naisA-Global-NextGen-Awards-Gala-img.jpg"></div>
+                                            <div><img src="images/naisA-Talk-Series-img.jpg"></div>
                                         </div>
-
-                                        <div class="et_pb_slide et_pb_slide_1 et_pb_bg_layout_dark et_pb_media_alignment_center">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                    <!-- .et_pb_slide_description -->
-                                                </div>
-                                            </div>
-                                            <!-- .et_pb_container -->
-                                        </div>
-
-                                        <div class="et_pb_slide et_pb_slide_2 et_pb_bg_layout_dark et_pb_media_alignment_center">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                    <!-- .et_pb_slide_description -->
-                                                </div>
-                                            </div>
-                                            <!-- .et_pb_container -->
-                                        </div>
-
-                                        <div class="et_pb_slide et_pb_slide_3 et_pb_bg_layout_dark et_pb_media_alignment_center">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                    <!-- .et_pb_slide_description -->
-                                                </div>
-                                            </div>
-                                            <!-- .et_pb_container -->
-                                        </div>
-
-                                        <div class="et_pb_slide et_pb_slide_4 et_pb_bg_layout_dark et_pb_media_alignment_center">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                    <!-- .et_pb_slide_description -->
-                                                </div>
-                                            </div>
-                                            <!-- .et_pb_container -->
-                                        </div>
-
-                                        <div class="et_pb_slide et_pb_slide_5 et_pb_bg_layout_dark et_pb_media_alignment_center">
-                                            <div class="et_pb_container clearfix">
-                                                <div class="et_pb_slider_container_inner">
-                                                    <div class="et_pb_slide_description">
-                                                        <div class="et_pb_slide_content"></div>
-                                                    </div>
-                                                    <!-- .et_pb_slide_description -->
-                                                </div>
-                                            </div>
-                                            <!-- .et_pb_container -->
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -2084,128 +2016,55 @@
                                     <div class="et_pb_column et_pb_column_4_4 et_pb_column_40    et_pb_css_mix_blend_mode_passthrough et-last-child">
                                         <div class="et_pb_module et_pb_text et_pb_text_10 et_pb_bg_layout_light  et_pb_text_align_left">
                                             <div class="et_pb_text_inner">
-                                                <script type="text/javascript">
-                                                    jQuery(document).ready(function() {
-                                                        jQuery("#sp-post-carousel-19146").slick({
-                                                            infinite: true,
-                                                            pauseOnFocus: false,
-                                                            dots: true,
-                                                            pauseOnHover: true,
-                                                            slidesToShow: 5,
-                                                            speed: 450,
-                                                            arrows: true,
-                                                            prevArrow: "<div class='slick-prev'><i class='sp-pc-font-icon sp-pc-icon-angle-left'></i></div>",
-                                                            nextArrow: "<div class='slick-next'><i class='sp-pc-font-icon sp-pc-icon-angle-right'></i></div>",
-                                                            slidesToScroll: 1,
-                                                            autoplay: true,
-                                                            autoplaySpeed: 2000,
-                                                            swipe: true,
-                                                            draggable: true,
-                                                            rtl: false,
-                                                            responsive: [
-                                                                {
-                                                                    breakpoint: 1100,
-                                                                    settings: {
-                                                                        slidesToShow: 3
-                                                                    }
-                                                                },
-                                                                {
-                                                                    breakpoint: 990,
-                                                                    settings: {
-                                                                        slidesToShow: 2
-                                                                    }
-                                                                },
-                                                                {
-                                                                    breakpoint: 650,
-                                                                    settings: {
-                                                                        slidesToShow: 1
-                                                                    }
-                                                                }
-                                                            ]
-                                                        });
-
-                                                    });
-                                                </script>
-                                                <style type="text/css">.sp-post-carousel-section #sp-post-carousel-19146.sp-post-carousel-area .slick-arrow{
-                                                    color:#ffffff;
-                                                    background-color:#3b88f1;
-                                                }
-                                                div.sp-post-carousel-section-19146{
-                                                    padding-top:46px;
-                                                }.sp-post-carousel-section-19146 .slick-dots li button{
-                                                     background-color: #cccccc;
-                                                 }
-                                                .sp-post-carousel-section-19146 .slick-dots li.slick-active button{
-                                                    background-color: #ff9300;
-                                                }.sp-post-carousel-section-19146 .sp-pc-post-title,
-                                                 .sp-post-carousel-section-19146 .sp-pc-post-title a{
-                                                     font-size: 18px;
-                                                     color: #333333;
-                                                     line-height: 1.2;
-                                                     font-weight: 600;
-                                                     margin-bottom: 8px;
-                                                     margin-top: 0;
-                                                     padding: 0;
-                                                 }
-                                                .sp-post-carousel-section-19146 .sp-pc-post-title a:hover{
-                                                    color: #ff9300;
-                                                }
-                                                .sp-post-carousel-section-19146 .sp-pc-content {
-                                                    font-size: 14px;
-                                                    color: #333333;
-                                                    line-height: 1.5;
-                                                    margin-bottom: 5px;
-                                                }
-                                                </style>
                                                 <div class="sp-post-carousel-section sp-post-carousel-section-19146">
-                                                    <div id="sp-post-carousel-19146" class="sp-post-carousel-area sp_pc_theme_carousel_one">
+                                                    <div id="sp-post-carousel" class="sp-post-carousel-area sp_pc_theme_carousel_one">
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/fastest-growing-minority-group-utilization-of-social-media/"><img width="1920" height="1357" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media.jpg 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media-600x424.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media-155x110.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media-768x543.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media-255x180.jpg 255w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
-                                                            <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/fastest-growing-minority-group-utilization-of-social-media/">Fastest Growing Minority Group&#8217;s Utilization of Social Media</a></h2>
+                                                            <div class="sp-pc-post-image"><a href=""><img width="1920" height="1357" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Fastest-Growing-Minority-Group’s-Utilization-of-Social-Media.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
+                                                            <h2 class="sp-pc-post-title"><a href="">Fastest Growing Minority Group&#8217;s Utilization of Social Media</a></h2>
                                                             <p class='sp-pc-content'>The racial and ethnic makeup of the United States is changing rapidly and Asians are the fastest-growing minority population in the United States. As a result, there is an increased</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/latest-trends-in-workplace-diversity/"><img width="1920" height="1371" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920.jpg 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920-600x428.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920-155x111.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920-768x548.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920-252x180.jpg 252w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/latest-trends-in-workplace-diversity/"><img width="1920" height="1371" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/startup-849804_1920.jpg" class="sp-pc-post-img wp-post-image" alt=""  /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/latest-trends-in-workplace-diversity/">Latest Trends in Workplace Diversity</a></h2>
                                                             <p class='sp-pc-content'>As recently as last year, a survey of corporate leaders showed workplace diversity wasn’t a priority. However, changes have happened quickly, and there are now a record number of corporations</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/challenging-model-minority-stereotypes/"><img width="1920" height="1440" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes.jpg 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes-600x450.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes-80x60.jpg 80w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes-155x116.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes-768x576.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes-240x180.jpg 240w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/challenging-model-minority-stereotypes/"><img width="1920" height="1440" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Challenging-“Model-Minority”-Stereotypes.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/challenging-model-minority-stereotypes/">Challenging &#8220;Model Minority&#8221; Stereotypes</a></h2>
                                                             <p class='sp-pc-content'>If you have not yet had the chance to check out the #NotTheSame campaign among social media outlets, you should. Initiated by the Asian and Pacific Islander American Scholarship Fund</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/female-asian-leadership-and-asian-leadership-in-the-west/"><img width="1920" height="1023" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders.jpg 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders-600x320.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders-155x83.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders-768x409.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders-260x139.jpg 260w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/female-asian-leadership-and-asian-leadership-in-the-west/"><img width="1920" height="1023" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/Asian-Leaders-Women-Leaders.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/female-asian-leadership-and-asian-leadership-in-the-west/">Female Asian Leadership and Asian Leadership in the West</a></h2>
                                                             <p class='sp-pc-content'>Rapid economic growth in Asia is creating more opportunities for women, yet they are still underrepresented in senior roles. Similar to the deficit of Asian leaders in the West, women</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/the-new-resume/"><img width="1920" height="1276" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume.png" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume.png 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume-600x399.png 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume-155x103.png 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume-768x510.png 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume-260x173.png 260w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/the-new-resume/"><img width="1920" height="1276" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/The-New-Resume-Micro-resume.png" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/the-new-resume/">The New Resume: Micro-resume</a></h2>
                                                             <p class='sp-pc-content'>As recent graduates and young professionals are on their job hunt, they are trying to build their credibility as we spoke about in our August post of  “Gaining Credibility as</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/diversity-stepping-up-to-the-challenge/"><img width="1280" height="720" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280.jpg 1280w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280-600x338.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280-155x87.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280-768x432.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280-260x146.jpg 260w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/diversity-stepping-up-to-the-challenge/"><img width="1280" height="720" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/human-668300_1280.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/diversity-stepping-up-to-the-challenge/">Diversity: Stepping Up to the Challenge</a></h2>
                                                             <p class='sp-pc-content'>This week, we take a step back from leadership to look at diversity in the workplace. According to the US Bureau of Labor Statistics, the total number employed in 2014</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/struggling-to-reach-the-top/"><img width="1920" height="1081" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top.jpg 1920w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top-600x338.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top-155x87.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top-768x432.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top-260x146.jpg 260w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/struggling-to-reach-the-top/"><img width="1920" height="1081" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/struggling-to-reach-the-top.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/struggling-to-reach-the-top/">Struggling to Reach the Top</a></h2>
                                                             <p class='sp-pc-content'>Are you a young millennial getting ready to start in the workforce? Are you already there and struggling to rise to the top? Asians face many problems when climbing the</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/venturing-out-what-you-need-to-know/"><img width="1280" height="903" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture.jpg 1280w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture-600x423.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture-155x109.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture-768x542.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture-255x180.jpg 255w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/venturing-out-what-you-need-to-know/"><img width="1280" height="903" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/business-blog-picture.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/venturing-out-what-you-need-to-know/">Venturing Out? What You Need to Know</a></h2>
                                                             <p class='sp-pc-content'>Leadership, leadership, leadership! Last week, we talked about how crucial it is to be a real leader versus a “wannabe” leader. Society does make quite the emphasis on being a</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/why-be-a-leader-to-begin-with/"><img width="654" height="533" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team.jpg 654w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team-600x489.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team-145x118.jpg 145w, https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team-221x180.jpg 221w" sizes="(max-width: 654px) 100vw, 654px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/why-be-a-leader-to-begin-with/"><img width="654" height="533" src="https://naisaglobal.org/staging/wp-content/uploads/2015/09/Asian-Leaders-with-Diverse-Team.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/why-be-a-leader-to-begin-with/">Why Be a Leader to Begin With?</a></h2>
                                                             <p class='sp-pc-content'>Another day, another leadership blog post. Advice on best practices! Tips to get ahead of the competition! Learn ways to stand out! Take the Leadership Test! Are You Leadership Material?</p>
                                                         </div>
                                                         <div class="sp-pc-post">
-                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/do-you-have-the-right-character-for-leadership/"><img width="4368" height="2912" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting.jpg" class="sp-pc-post-img wp-post-image" alt="" srcset="https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting.jpg 4368w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting-600x400.jpg 600w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting-155x103.jpg 155w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting-768x512.jpg 768w, https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting-260x173.jpg 260w" sizes="(max-width: 4368px) 100vw, 4368px" /></a></div>
+                                                            <div class="sp-pc-post-image"><a href="https://naisaglobal.org/staging/do-you-have-the-right-character-for-leadership/"><img width="4368" height="2912" src="https://naisaglobal.org/staging/wp-content/uploads/2015/12/business-leader-at-meeting.jpg" class="sp-pc-post-img wp-post-image" alt="" /></a></div>
                                                             <h2 class="sp-pc-post-title"><a href="https://naisaglobal.org/staging/do-you-have-the-right-character-for-leadership/">Do You Have The Right Character for Leadership?</a></h2>
                                                             <p class='sp-pc-content'>Whether you are an upcoming professional looking to make the jump into management, a team leader looking to step into a more senior position, or already leading your company and</p>
                                                         </div>
@@ -2320,21 +2179,70 @@
     <!-- #et-main-area -->
 </div>
 
+<script type='text/javascript' src="{{asset('frontend/js/slick.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.bxslider.min.js')}}"></script>
+
+<script>
+    $(document).ready(function() {
+        console.log('start...');
+        $("#sp-post-carousel").slick({
+            infinite: true,
+            pauseOnFocus: false,
+            dots: true,
+            pauseOnHover: true,
+            slidesToShow: 5,
+            speed: 450,
+            arrows: true,
+            prevArrow: "<div class='slick-prev'><i class='sp-pc-font-icon sp-pc-icon-angle-left'></i></div>",
+            nextArrow: "<div class='slick-next'><i class='sp-pc-font-icon sp-pc-icon-angle-right'></i></div>",
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            swipe: true,
+            draggable: true,
+            rtl: false,
+            responsive: [
+                {
+                    breakpoint: 1100,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 990,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 650,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+        $('.bxslider').bxSlider({
+            mode: "fade",
+            adaptiveHeight: true,
+            useCSS: false,
+            auto: true,
+            autoStart: true,
+            pause: 4000,
+            pager: false,
+            autoHover: true,
+            autoDelay: 500,
+        });
+
+        $( ".mobile_menu_bar" ).on( "click", function() {
+            console.log( $( this ).text() );
+        });
 
 
-
-<script type='text/javascript' src='https://naisaglobal.org/staging/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-global-functions.js?ver=3.12.1'></script>
-<script type='text/javascript' src='https://naisaglobal.org/staging/wp-content/plugins/logo-carousel-free/public/assets/js/slick.min.js?ver=3.1.1'></script>
-<script type='text/javascript' src='https://naisaglobal.org/staging/wp-content/themes/Divi/js/custom.js?ver=3.12.1'></script>
-
-
-<script type="text/javascript">
-    var et_animation_data = [];
-    var et_pb_custom = {};
-    var et_pb_box_shadow_elements = [];
+    });
 </script>
-
-<script type='text/javascript' src='https://naisaglobal.org/staging/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-scripts.js?ver=3.12.1'></script>
 
 
 </body>

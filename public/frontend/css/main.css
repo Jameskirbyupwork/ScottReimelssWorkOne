@@ -5727,30 +5727,6 @@ ul.et_pb_side_nav .side_nav_item a.active {
     }
 }
 
-/*@font-face {
-    font-family: ETmodules;
-    src: url('../fonts/modules-webfont.woff2') format('woff2'),
-    url('../fonts/modules-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-@font-face {
-    font-family: 'modulesregular';
-    src: url('modules-webfont.woff2') format('woff2'),
-    url('modules-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*@font-face {
-    font-family: 'modulesregular';
-    src: url('modules-webfont.woff2') format('woff2'),
-    url('modules-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
 #wp-admin-bar-et-use-visual-builder a:before {
     width: 28px;
     margin-top: -3px;
