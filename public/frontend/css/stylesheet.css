@@ -38,3 +38,12 @@ div.sp-post-carousel-section-19146{
     line-height: 1.5;
     margin-bottom: 5px;
 }
+/* .social-link */
+.social-link {
+    display: inline-block!important;
+    width: 36px!important;
+    float: left!important;
+}
+.social-link a i {
+    font-size: 22px;
+}
