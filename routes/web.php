@@ -15,6 +15,9 @@
 //     return view('welcome');
 // });
 
+/**-----------------------------------------------------------------------
+Frontend
+-----------------------------------------------------------------------**/
 Route::get('/','Frontend\Home@homePage');
 Route::get('/our-team','Frontend\Home@ourTeam');
 Route::get('/annual-reports','Frontend\Home@annualReports');

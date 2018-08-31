@@ -33,72 +33,89 @@
         <!-- .et_slide_menu_top -->
         <div class="et_pb_fullscreen_nav_container">
             <ul id="mobile_menu_slide" class="et_mobile_menu">
-                <li>
-                    <a href="#">About</a>
-                    <ul class="sub-menu">
-                        <li><a href="">Our Story</a></li>
-                        <li><a href="">Our Board</a></li>
-                        <li><a href="">Our Team</a></li>
-                        <li><a href="">Our Annual Reports</a></li>
-                        <li><a href="">Our Testimonials</a></li>
-                        <li><a href="">Our Member Spotlights</a></li>
-                        <li><a href="">Our Photo Gallery</a></li>
-                        <li><a href="">Our Videos</a></li>
-                        <li><a href="">Our Infographics</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Programs</a>
-                    <ul class="sub-menu">
-                        <li><a href="">Our Services</a></li>
-                        <li><a href="">naisA Talks</a></li>
-                        <li><a href="">Mentor-Protégé Program</a></li>
-                        <li><a href="">Mentoring &#8211; naisA Flash Advice (nFA)</a></li>
-                        <li><a href="">naisA-Flash-Webinar</a></li>
-                        <li><a href="">naisA GLobal Fellowship Program</a></li>
-                        <li><a href="">naisA Global ABCs (Assessment of Business Communication Skills)</a></li>
-                        <li><a href="">naisA Talks</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Mentoring</a></li>
-                <li>
-                    <a href="">Support</a>
-                    <ul class="sub-menu">
-                        <li><a href="">Donate</a></li>
-                        <li><a href="">Sponsorship</a></li>
-                        <li><a href="">Sponsors &#038; Partners</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Events</a>
-                    <ul class="sub-menu">
-                        <li><a href="">Gala Photo Albums</a></li>
-                        <li><a href="">2017 Awards Gala</a></li>
-                        <li><a href="">naisA Events</a></li>
-                        <li><a href="">Event Calendar</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="">Blog &#038; News</a>
-                    <ul class="sub-menu">
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">naisA News</a></li>
-                        <li><a href="">Brochures</a></li>
-                        <li><a href="">Newsletters</a></li>
-                        <li><a href="">naisA Global Press Release</a></li>
-                    </ul>
-                </li>
-                <li><a href="">LOGIN</a></li>
-                <li><a href="">Sign In</a></li>
-                <li><a href="https://naisaglobal.org/donation/">DONATE</a></li>
-                <li><a href="">JOIN OUR MAILING LIST</a></li>
-                <li><a href="">T: 202-379-2525</a></li>
-                <li><a href="#">STAY CONNECTED</a></li>
-                <li><a><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></a></li>
-                <li><a href=""><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></a></li>
-                <li><a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></a></li>
-                <li><a href=""><a href="" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></a></li>
-            </ul>
+            <li>
+                <a href="javascript:void(0)">About
+                    <span class="et_mobile_menu_arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="{{url('/our-story')}}">Our Story</a></li>
+                    <li><a href="{{url('/our-board')}}">Our Board</a></li>
+                    <li><a href="{{url('/our-team')}}">Our Team</a></li>
+                    <li><a href="{{url('/annual-reports')}}">Our Annual Reports</a></li>
+                    <li><a href="">Our Testimonials</a></li>
+                    <li><a href="">Our Member Spotlights</a></li>
+                    <li><a href="">Our Photo Gallery</a></li>
+                    <li><a href="">Our Videos</a></li>
+                    <li><a href="">Our Infographics</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Programs
+                    <span class="et_mobile_menu_arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">naisA Talks</a></li>
+                    <li><a href="">Mentor-Protégé Program</a></li>
+                    <li><a href="">Mentoring &#8211; naisA Flash Advice (nFA)</a></li>
+                    <li><a href="">naisA-Flash-Webinar</a></li>
+                    <li><a href="">naisA GLobal Fellowship Program</a></li>
+                    <li><a href="">naisA Global ABCs (Assessment of Business Communication Skills)</a></li>
+                    <li><a href="">naisA Talks</a></li>
+                </ul>
+            </li>
+            <li><a href="">Mentoring</a></li>
+            <li>
+                <a href="javascript:void(0)">Support
+                    <span class="et_mobile_menu_arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="">Donate</a></li>
+                    <li><a href="">Sponsorship</a></li>
+                    <li><a href="">Sponsors &#038; Partners</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Events
+                    <span class="et_mobile_menu_arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="">Gala Photo Albums</a></li>
+                    <li><a href="">2017 Awards Gala</a></li>
+                    <li><a href="">naisA Events</a></li>
+                    <li><a href="">Event Calendar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)">Blog & News
+                    <span class="et_mobile_menu_arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">naisA News</a></li>
+                    <li><a href="">Brochures</a></li>
+                    <li><a href="">Newsletters</a></li>
+                    <li><a href="">naisA Global Press Release</a></li>
+                </ul>
+            </li>
+            <li><a href="">LOGIN</a></li>
+            <li><a href="">DONATE</a></li>
+            <li><a href="">JOIN OUR MAILING LIST</a></li>
+            <li><a href="">T: 202-379-2525</a></li>
+            <li><a href="javascript:void(0)">STAY CONNECTED</a></li>
+            <li class="social-link">
+                <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="social-link">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="social-link">
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li class="social-link">
+                <a href="" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </li>
+        </ul>
         </div>
     </div>
     <header id="main-header" data-height-onload="66">
@@ -106,7 +123,7 @@
 
             <div class="logo_container">
                 <span class="logo_helper"></span>
-                <a href="./">
+                <a href="{{url('/')}}">
                     <img src="{{asset('frontend/images/Naisa-Global-Logo-Rimg.png')}}" alt="naisA Global" id="logo" />
                 </a>
             </div>
@@ -276,11 +293,16 @@
             autoDelay: 500,
         });
 
+         // Toggle menu show hide
         $( ".mobile_menu_bar" ).on( "click", function() {
-            console.log( $( this ).text() );
+            $('.et_slide_in_menu_container').toggleClass("et_pb_slide_menu_opened");
+            $('.et_toggle_slide_menu').toggleClass("set-close-btn");
         });
 
-
+        $( "#mobile_menu_slide li a" ).on( "click", function() {
+            $(this).find('span').toggleClass('et_pb_submenu_opened');
+            $(this).next().toggleClass('et_pb_slide_dropdown_opened show');
+        });
     });
 </script>
 
