@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','Frontend\Home@homePage');
+Route::get('/our-team','Frontend\Home@ourTeam');
+Route::get('/annual-reports','Frontend\Home@annualReports');
+Route::get('/our-board','Frontend\Home@ourBoard');
+Route::get('/our-story','Frontend\Home@ourStory');
