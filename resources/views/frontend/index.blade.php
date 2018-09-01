@@ -1829,7 +1829,11 @@
                                         </div>
                                         <div class="et_pb_module et_pb_text et_pb_text_6 et_pb_bg_layout_light  et_pb_text_align_left">
                                             <div class="et_pb_text_inner">
-                                                <p><iframe width="1080" height="608" src="https://www.youtube.com/embed/VEQ05aeROfY?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+                                                <p>
+                                                <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;">
+                                                    <iframe src="https://www.youtube.com/embed/VEQ05aeROfY?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
                                                     Dr. Wallace Loh
                                                 </p>
                                             </div>
@@ -1852,7 +1856,11 @@
                                         </div>
                                         <div class="et_pb_module et_pb_text et_pb_text_8 et_pb_bg_layout_light  et_pb_text_align_left">
                                             <div class="et_pb_text_inner">
-                                                <p><iframe width="1080" height="608" src="https://www.youtube.com/embed/0S6myUfQnjA?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br />
+                                                <p>
+                                                <div class="fluid-width-video-wrapper" style="padding-top: 56.2963%;">
+                                                    <iframe src="https://www.youtube.com/embed/0S6myUfQnjA?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                </div>
+                                                <br />
                                                     Meet our naisA Global Mentors
                                                 </p>
                                             </div>

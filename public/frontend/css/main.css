@@ -88,7 +88,23 @@ q:before {
     content: "";
     content: none
 }
-
+@font-face {
+    font-family: Arial;
+    src: url('/frontend/fonts/arial.ttf')
+}
+.bx-prev:before{
+    content: "\34";
+}
+.bx-next:before{
+    content: "\35";
+}
+body, p, a, div, span, ul, li{
+    font-family: Arial !important;
+}
+.et_toggle_slide_menu:after, .mobile_menu_bar:before{
+    color: #666 !important;
+    font-size:45px !important;
+}
 blockquote {
     margin: 20px 0 30px;
     padding-left: 20px;
@@ -241,9 +257,7 @@ h6 {
     color: #333;
     font-weight: normal;
     line-height: 1em;
-    font-family: 'Open Sans';
 }
-
 h1 a,
 h2 a,
 h3 a,
@@ -2855,7 +2869,7 @@ figure.woocommerce-product-gallery__wrapper {
     top: 0;
     left: 0;
     font-size: 32px;
-/*  content: "a&#8203";*/ /* ALEX */
+    content: "\041";
     cursor: pointer
 }
 
@@ -4343,6 +4357,12 @@ ul.et_pb_side_nav .side_nav_item a.active {
 .et_header_style_fullscreen .et-fixed-header #et-top-navigation,
 .et_header_style_slide .et-fixed-header #et-top-navigation {
     padding: 11px 0!important
+}
+.et_pb_slide_menu_opened{
+    overflow-x: hidden;
+}
+.et-has-child a{
+    font-weight: 700;
 }
 
 .et_left_sidebar .et_pb_column_2_3 .et_pb_countdown_timer .section p.value,
@@ -6413,7 +6433,7 @@ a.et_pb_more_button:after {
     top: 0;
     left: 0;
     font-size: 32px;
-    content: "\51";
+    content: "\4d";
     cursor: pointer;
 }
 
@@ -8014,7 +8034,8 @@ a.et_pb_more_button:after {
 
 .et_pb_column_1_3 h1,
 .et_pb_column_1_4 h1 {
-    font-size: 26px
+    font-size: 26px;
+    font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
 }
 
 .et_pb_column_1_3 h2,
@@ -11882,6 +11903,9 @@ h1.et_pb_contact_main_title {
 
 .et_pb_text_inner {
     position: relative
+}
+.et_pb_text_inner p{
+    padding-bottom: 0 !important;
 }
 
 .et_pb_bg_layout_dark,

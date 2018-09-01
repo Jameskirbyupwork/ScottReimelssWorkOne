@@ -796,9 +796,11 @@ body #page-container .et_pb_contact_form_0.et_pb_contact_form_container .et_pb_b
     color: #0688f9!important;
     text-align: left
 }
-
+body, p, a, div, span, ul, li{
+    font-family: Arial !important;
+}
 .et_pb_text_4 h1 {
-
+    font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 900;
     font-size: 28px;
     color: #5e5e5e!important
@@ -3693,9 +3695,18 @@ body #page-container .et_pb_button_18:after {
     -webkit-transition: height 4s; /* For Safari 3.1 to 6.0 */
     transition: height 4s;
 }
-
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
 .et_pb_text_inner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     margin-bottom: 15px;
+    height: 100%;
+    width:100%;
 }
 
 .entry-content > ul {
@@ -3846,7 +3857,7 @@ input[type="submit"] {
     text-indent: -99999px;
 }
 .slick-dots {
-    display: none!important;
+    /*display: none!important;*/
 }
 
 .variable button.slick-next, .variable button.slick-next:hover, .variable button.slick-next:focus, .variable button.slick-next:active {

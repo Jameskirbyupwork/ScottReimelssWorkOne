@@ -17,6 +17,7 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%7CLato%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&#038;%20ver=744ba46599a7d4bb3dbca7a1571be0cd#038;subset=latin,latin-ext' type='text/css' media='all' />
     <link rel="stylesheet" href="{{asset('frontend/css/stylesheet.css')}}" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="{{asset('frontend/css/et-core.min.css')}}" />
+    <link rel="stylesheet" href="{{asset('frontend/css/spfont.css')}}" />
 
      <script type='text/javascript' src="{{asset('frontend/js/jquery.min.js')}}"></script>
 </head>
@@ -33,7 +34,7 @@
         <!-- .et_slide_menu_top -->
         <div class="et_pb_fullscreen_nav_container">
             <ul id="mobile_menu_slide" class="et_mobile_menu">
-            <li>
+            <li class="et-has-child" >
                 <a href="javascript:void(0)">About
                     <span class="et_mobile_menu_arrow"></span>
                 </a>
@@ -49,7 +50,7 @@
                     <li><a href="">Our Infographics</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="et-has-child" >
                 <a href="javascript:void(0)">Programs
                     <span class="et_mobile_menu_arrow"></span>
                 </a>
@@ -65,7 +66,7 @@
                 </ul>
             </li>
             <li><a href="">Mentoring</a></li>
-            <li>
+            <li class="et-has-child" >
                 <a href="javascript:void(0)">Support
                     <span class="et_mobile_menu_arrow"></span>
                 </a>
@@ -75,7 +76,7 @@
                     <li><a href="">Sponsors &#038; Partners</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="et-has-child" >
                 <a href="javascript:void(0)">Events
                     <span class="et_mobile_menu_arrow"></span>
                 </a>
@@ -86,7 +87,7 @@
                     <li><a href="">Event Calendar</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="et-has-child" >
                 <a href="javascript:void(0)">Blog & News
                     <span class="et_mobile_menu_arrow"></span>
                 </a>
@@ -302,6 +303,14 @@
         $( "#mobile_menu_slide li a" ).on( "click", function() {
             $(this).find('span').toggleClass('et_pb_submenu_opened');
             $(this).next().toggleClass('et_pb_slide_dropdown_opened show');
+        });
+        $(document).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if(scroll >= 100) {
+                $("#main-header").addClass("et-fixed-header");
+            }else{
+                $("#main-header").removeClass("et-fixed-header");
+            }
         });
     });
 </script>
