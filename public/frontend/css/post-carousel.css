@@ -101,10 +101,14 @@ div.sp-post-carousel-area.slick-initialized {
 
 .sp-post-carousel-section .sp-post-carousel-area .slick-prev {
     right: 56px;
+    color: #ffffff;
+    background-color: #3b88f1;
 }
 
 .sp-post-carousel-section .sp-post-carousel-area .slick-next {
     right: 20px;
+    color: #ffffff;
+    background-color: #3b88f1;
 }
 
 /* Dots */
@@ -128,6 +132,7 @@ div.sp-post-carousel-area.slick-initialized {
 }
 
 .sp-post-carousel-section .slick-dots li button {
+    background-color: #ccc;
     border-radius: 50%;
     text-indent: -999px;
     width: 12px;
