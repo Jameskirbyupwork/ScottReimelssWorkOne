@@ -90,7 +90,7 @@ q:before {
 }
 @font-face {
     font-family: Arial;
-    src: url('../fonts/arial.ttf')
+    src: url('/frontend/fonts/arial.ttf');
 }
 .bx-prev:before{
     content: "\34";
