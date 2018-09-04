@@ -63,8 +63,7 @@ class PagesController extends Controller
         
         if (empty($page)) {
             abort(404);
-        }
-
+        }        
         return view('cms-frontend::pages.'.$page->template)->with('page', $page);
     }
 }

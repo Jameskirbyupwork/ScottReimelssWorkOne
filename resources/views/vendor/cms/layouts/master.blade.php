@@ -20,7 +20,7 @@
 
         <!-- App style -->
         <link rel="stylesheet" type="text/css" href="{!! Cms::asset('dist/css/vendor.css', 'text/css') !!}">
-        <link rel="stylesheet" type="text/css" href="{!! Cms::asset('dist/css/cms.css', 'text/css') !!}">
+        <link rel="stylesheet" type="text/css" href="{!! Cms::asset('dist/css/cms.css', 'text/css') !!}">        
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,6 +56,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="{!! Cms::asset('dist/js/vendor.js', 'application/javascript') !!}"></script>
         <script src="{!! Cms::asset('dist/js/cms.js', 'application/javascript') !!}"></script>
+
+
         @include('cms::notifications')
         @yield("javascript")
     </body>
